@@ -1,0 +1,7 @@
+---
+yum_packages: ['@development', 'gcc', 'git', 'bash-completion',
+  'bash-completion-extras', 'vim', 'curl', 'wget', 'tmux', 'tree',
+  'iperf3', 'dstat', 'htop', 'iotop', 'nethogs', 'gdisk',
+  'unzip', 'zlib-devel', 'bzip2', 'bzip2-devel', 'readline-devel',
+  'sqlite', 'sqlite-devel', 'openssl-devel', 'tk-devel',
+  'libffi-devel', 'xz', 'xz-devel', 'ncurses-devel', 'gpg']
