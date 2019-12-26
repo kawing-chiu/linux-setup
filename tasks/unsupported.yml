@@ -1,0 +1,6 @@
+---
+- name: Print error if OS is unsupported
+  fail:
+    msg: >-
+      Unsupported linux distribution:
+      '{{ ansible_facts['distribution'] }}'

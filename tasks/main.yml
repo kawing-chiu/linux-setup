@@ -1,7 +1,7 @@
 ---
-- import_tasks: set_facts.yml
-
-- import_tasks: centos.yml
-  when:
-    - distribution_to_setup == 'centos7'
+- include_tasks: "{{ lookup('first_found', distributions) }}"
+  vars:
+    distributions:
+      - "{{ ansible_facts['distribution'] }}.yml"
+      - unsupported.yml
 
