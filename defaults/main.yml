@@ -4,4 +4,5 @@ yum_packages: ['@development', 'gcc', 'git', 'bash-completion',
   'iperf3', 'dstat', 'htop', 'iotop', 'nethogs', 'gdisk', 'unzip',
   'zlib-devel', 'bzip2', 'bzip2-devel', 'readline-devel', 'sqlite',
   'sqlite-devel', 'openssl-devel', 'tk-devel', 'libffi-devel',
-  'xz', 'xz-devel', 'ncurses-devel', 'gpg', 'podman']
+  'xz', 'xz-devel', 'ncurses-devel', 'gpg', 'podman', 'buildah',
+  'skopeo', 'slirp4netns', 'fuse3-devel']
